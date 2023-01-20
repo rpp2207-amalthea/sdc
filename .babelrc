@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    // ["es2015", {"modules": true}],
+    // "stage-2",
+    // "react",
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ],
+  "plugins": [
+    "babel-plugin-styled-components"
+    // "react-refresh/babel"
+  ]
+}
